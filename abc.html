@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 id="demo"></h1> 
+  <button onclick="add()">click me to get result</button>
+  <button onclick="display()">click me to see your name</button>
+
+
+  <script>
+var a=40
+var b=90
+function add() {
+    var c=a+b
+    document.getElementById("demo").innerHTML=c
+}
+
+
+name=prompt("enter your name ")
+function display() {
+
+    document.getElementById("demo").innerHTML="Hello I am" + name 
+}
+
+
+  </script>
+</body>
+</html>
